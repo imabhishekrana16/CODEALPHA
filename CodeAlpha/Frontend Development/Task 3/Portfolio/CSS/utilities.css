@@ -1,0 +1,27 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.flex-1{
+    flex: 1;
+}     
+.justify-center{
+    justify-content: center;
+}
+.btn{
+    padding: 0.8rem 3rem;
+}
+.btn-secondary{
+    background:transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-secondary:hover{
+    background: var(--primary);
+    color: var(--secondary);
+}
